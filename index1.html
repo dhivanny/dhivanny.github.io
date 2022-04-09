@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombori Tour</title>
+    <link rel="stylesheet" href="index1.css">
+</head>
+<body>
+    <div class="left">
+        <table rowspan="3">
+            <tr>
+                <td><img src="logo.png" alt=""></td>
+                <td><h1>SOMBORI TOUR</h1></td>
+            </tr>
+        </table>
+        <div class="menu">
+            <a href="index.html">Registrasi</a>
+            <a href="index1.html">Booking Tour</a>
+            <a href="index2.html">Help Desk</a>
+      </div>
+    </div>
+    <div class="right">
+        <div class="content">
+            <center>
+                <form >
+                    <table  class="form" cellspacing="30" cellpadding="1">
+                        <tr>
+                            <td class="header-form" colspan="2">Booking Tour</td>
+                        </tr>
+                        <tr>
+                            <td>Jumlah Peserta:</td>
+                            <td>
+                                <select class="form-control name="Pilih Jumlah Peserta" id="">
+                                    <option value="">Pilih Jumlah Peserta</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="1">3</option>
+                                    <option value="2">4</option>
+                                    <option value="1">5</option>
+                                    <option value="2">6</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Keberangkatan:</td>
+                            <td>
+                               <input class="form-control" type="date"  > 
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Tanggal Kepulangan:</td>
+                            <td>
+                               <input class="form-control" type="date"> 
+                            </td>
+                        </tr>
+                        <tr>
+                                <td>Tipe Tour:</td>
+                                <td>
+                                        <input type="radio" value="1">Open Tour
+                                        <input type="radio" value="2">Private Tour
+                                        <input type="radio" value="3">Wisata Group
+                                </td>
+                        </tr>
+                        <tr>
+                            <td>Jumlah Pembayaran:</td>
+                            <td><input class="form-control type="text" placeholder="Jumlah bayar"></td>
+                        </tr>
+                        <tr>
+                            <td>Metode pembayaran</td>
+                            <td>
+                                <select class="form-control">
+                                    <option value="">Metode bayar</option>
+                                    <option value="1">Transfer Bank</option>
+                                    <option value="2">E-Wallet</option>
+                                    <option value="1">Qr Code</option>
+                                    <option value="2">cash</option>
+                            </td>
+                        </tr>
+                        <td>Bukti Pembayaran:</td>
+                        <td><input type="file"></td>
+                        <tr>
+                            <td>
+                                <button>kirim</button>
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </center>
+        </div>
+    </div>
+</body>
+</html>
